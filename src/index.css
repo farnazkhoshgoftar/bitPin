@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  direction: rtl;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: MyFont !important;
+
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url(./assets/fonts/Hello\ Unicorn.ttf);
+
+}

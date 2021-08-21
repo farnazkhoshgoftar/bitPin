@@ -1,0 +1,50 @@
+.myRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: 1px 0px 8px 2px gray;
+    padding:0 5px;
+    border-radius: 10px;
+}
+
+.myRow .section {
+    width: 25%;
+    text-align: center;
+}
+
+.myRow .introduction {
+    display: flex;
+    align-items: center;
+}
+
+.myRow .introduction .titleFa {
+    color: lightgray;
+}
+
+.myRow .change {
+    direction: ltr;
+}
+
+.myRow .change p {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.myRow .red {
+    background-color: red;
+}
+
+.myRow .green {
+    background-color: green;
+}
+
+.myRow img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
